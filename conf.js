@@ -4,26 +4,6 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'aliyun-hk': {
-      label: '轻量云-香港',
-      lines: [
-        // 多条线路，负载均衡系统会从其中选一条
-        'node-aliyun-hk-0.etherdream.com:8443',
-        'node-aliyun-hk-1.etherdream.com:8443'
-      ]
-    },
-    'aliyun-sg': {
-      label: '轻量云-新加坡',
-      lines: [
-        'node-aliyun-sg.etherdream.com:8443'
-      ]
-    },
-    'bwh-la': {
-      label: '搬瓦工-洛杉矶',
-      lines: [
-        'node-bwh-la.etherdream.com:8443'
-      ]
-    },
     'cfworker': {
       label: 'Cloudflare Worker',
       hidden: true,
