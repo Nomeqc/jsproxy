@@ -10,7 +10,7 @@ jsproxy_config({
       lines: [
         // 实验中...
         // 参考 https://github.com/EtherDream/jsproxy/tree/master/cf-worker
-        'https://delicate-frog-f217.fallrainy.workers.dev'
+        'delicate-frog-f217.fallrainy.workers.dev'
       ]
     }
   },
@@ -18,7 +18,7 @@ jsproxy_config({
   /**
    * 默认节点  
    */
-  node_default: 'aliyun-hk',
+  node_default: 'cfworker',
 
   /**
    * 加速节点
